@@ -45,6 +45,11 @@ nav a {
   text-decoration: none;
 }
 
+.nav a:hover {
+  border-bottom: 1px solid black;
+  transition: 1s;
+}
+
 header nav a:nth-child(2n-1) {
   text-align: right;
 }
@@ -61,6 +66,11 @@ header nav a:nth-child(2n-1) {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+  transition: transform 100ms linear;
+}
+
+.button:hover {
+  transform: scale(1.08);
 }
 
 .hero-section {
